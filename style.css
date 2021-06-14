@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #000;
+    color: #fff;
+}
+
+img {
+    width: 150px;
+    height: auto;
+}
+
+#card {
+    width: 100%;
+    max-width: 1200px;
+    height: 100%;
+    border: 10px solid red;
+    margin: 0 auto;
+}
+
+#card>div{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.movies-card {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+}
+
+.movie-card{
+    width: 25%;
+    flex-grow: 1;
+    border: 2px solid blue;
+}
